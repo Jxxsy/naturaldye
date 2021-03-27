@@ -14,7 +14,7 @@
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="草 木 染">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="工一13Jxxsy">
+<meta property="article:author" content="工设一班YQH">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="草 木 染" type="application/atom+xml">
@@ -129,6 +129,69 @@
                       };
                   </script>
                 
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img2" src="/css/images/1.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img2 = new Image();
+                      var imageTag2 = document.getElementById("carousel-img2");
+                      img2.src = imageTag2.src;
+                      img2.onload=function(){
+                        if (img2.width / img2.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag2.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag2.style.height = document.body.clientHeight + "px";
+                          imageTag2.style.marginLeft = -(document.body.clientHeight * img2.width / img2.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img3" src="/css/images/2.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img3 = new Image();
+                      var imageTag3 = document.getElementById("carousel-img3");
+                      img3.src = imageTag3.src;
+                      img3.onload=function(){
+                        if (img3.width / img3.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag3.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag3.style.height = document.body.clientHeight + "px";
+                          imageTag3.style.marginLeft = -(document.body.clientHeight * img3.width / img3.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
+                  
+                    <div class="item">
+                  
+                    <img id="carousel-img4" src="/css/images/3.jpg">
+                  </div>
+
+                  <!-- 自适应大图 -->
+                  <script>
+                      var img4 = new Image();
+                      var imageTag4 = document.getElementById("carousel-img4");
+                      img4.src = imageTag4.src;
+                      img4.onload=function(){
+                        if (img4.width / img4.height <= document.body.clientWidth / document.body.clientHeight) {
+                          imageTag4.style.width = document.body.clientWidth + "px";
+                        } else {
+                          imageTag4.style.height = document.body.clientHeight + "px";
+                          imageTag4.style.marginLeft = -(document.body.clientHeight * img4.width / img4.height - document.body.clientWidth) / 2 + "px";
+                        }
+                      };
+                  </script>
+                
             </div>
 
             <!-- Controls -->
@@ -191,7 +254,7 @@
           <div class="homelogoback"  style="border: 1px solid #404040;" >
             <h1><a href="#content" id="logo">草 木 染</a></h1>
             <h3></h3>
-            <h5>工一13Jxxsy</h5>
+            <h5>工设一班YQH</h5>
             <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
           </div>
         
@@ -566,7 +629,7 @@ Cover and sampler pages
             草 木 染
           </div>
           <div class="panel-body">
-            Copyright © 2021 工一13Jxxsy All Rights Reserved.
+            Copyright © 2021 工设一班YQH All Rights Reserved.
           </div>
         </div>
       </div>
